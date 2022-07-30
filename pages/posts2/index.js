@@ -23,7 +23,7 @@ export default function POSTS() {
     const post = {
       title: title,
       body: body,
-      id: 2
+      id: 3
     };
     const newPosts = data.concat(post);
     setData(newPosts);
